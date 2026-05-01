@@ -1,9 +1,33 @@
-# ---
+# 🔧 hermes-recipe-scraper
 
---- name: recipe-scraper description: "Scrape recipes from URLs, normalise into structured format, auto-calculate macros per serving using USDA food data." 
+A [Hermes Agent](https://hermes-agent.nousresearch.com/) skill for **recipe-scraper** (productivity category).
 
-Part of the [Hermes Agent](https://github.com/Marrowleaf/hermes-agent) skill ecosystem.
+## Installation
+
+```bash
+cd ~/.hermes/skills/productivity
+git clone https://github.com/Marrowleaf/hermes-recipe-scraper.git recipe-scraper
+```
+
+## Usage
+
+Once installed, this skill is automatically detected by Hermes Agent.
+
+```
+skill_view(name="recipe-scraper")
+```
+
+## Structure
+
+- `SKILL.md` — Full documentation
+- `references/` — Reference materials
+- `scripts/` — Utility scripts
+- `templates/` — Templates
 
 ## License
 
-MIT License - Copyright (c) 2026 James Durrant
+MIT — see [LICENSE](LICENSE)
+
+---
+
+Built with ❤️ by [James Durrant](https://github.com/Marrowleaf)
